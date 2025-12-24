@@ -1,0 +1,35 @@
+Test Case ID: LOGIN_001
+Başlık: Geçerli kullanıcı ile başarılı giriş denemesi
+Önkoşul: Kullanıcı kayıtlı bir e-postaya sahip olmalı
+Adımlar:
+1. www.shopworld.com/login adresine git
+2. Geçerli e-posta gir
+3. Geçerli şifre gir
+4. "Giriş Yap" butonuna tıkla
+Beklenen Sonuç: Kullanıcı ana sayfaya yönlendirilir
+
+
+
+
+Test Case ID: LOGIN_002
+Başlık: Yanlış şifre ile giriş denemesi
+Önkoşul: Kayıtlı e-posta adresi olmalı
+Adımlar:
+1. Giriş sayfasına git
+2. Geçerli e-posta gir
+3. Yanlış şifre gir
+4. Giriş Yap’a tıkla
+Beklenen Sonuç: "Şifre hatalı" uyarısı gösterilmeli
+Gerçekleşen Sonuç : Kullanıcıya hata mesajı göstermemektedir
+
+
+
+Test Case LOGIN_003
+Başlık: Boş kullanıcı veya şifre alanıyla giriş
+Önkoşul: —
+Adımlar:
+1. Login sayfasını aç
+2. E-posta alanını boş bırak
+3. Şifre alanını boş bırak
+4. Giriş Yap’a tıkla
+Beklenen Sonuç: “Bu alan boş bırakılamaz” uyarısı gösterilmeli

@@ -1,0 +1,64 @@
+Test Case: LOGIN_001 – Geçerli kullanıcı ile başarılı giriş
+
+Ön Koşul:
+Kullanıcının kayıtlı ve aktif bir e-posta adresi bulunmaktadır.
+
+Adımlar:
+
+1) www.shopworld.com/login sayfasına git
+2) Geçerli e-posta adresini gir
+3) Geçerli şifreyi gir
+4) “Giriş Yap” butonuna tıkla
+
+Beklenen Sonuç:
+Kullanıcı başarılı şekilde giriş yapar ve ana sayfaya yönlendirilir.
+
+Gerçekleşen Sonuç:
+“Sistem hatası oluştu” şeklinde uyarı görüntülenmekte ve kullanıcı giriş yapamamaktadır.
+
+Ciddiyet: Critical
+ Kullanıcı sisteme giriş yapamıyor
+ Tüm kullanıcıları etkileyebilir
+
+Öncelik : High
+ Acil çözülmesi gerekiyor
+
+Ortam :
+Web – Chrome – Desktop
+Windows 10
+
+Durum : açık
+
+
+
+Test Case: LOGIN_002
+Başlık: Yanlış şifre ile giriş
+Sonuç: PASS
+Özet: Yanlış şifre girildiğinde sistem “Şifre hatalı” uyarısı göstermektedir. Beklenen sonuç ile gerçekleşen sonuç uyumludur.
+
+
+
+
+Test Case : LOGIN_003 - Boş kullanıcı adı veya şifre alanıyla giriş
+Önkoşul: —
+
+Adımlar:
+1. Login sayfasını aç
+2. E-posta alanını boş bırak
+3. Şifre alanını boş bırak
+4. Giriş Yap’a tıkla
+Beklenen Sonuç: “Bu alan boş bırakılamaz” uyarısı gösterilmeli
+Gerçekleşen Sonuç: Sistem hata mesajı vermemektedir.
+
+Ciddiyet : HİGH
+Öncelik : High
+
+
+Ortam :
+Web – Chrome – Desktop
+Windows 10
+
+
+Durum: Açık
+
+
